@@ -1,0 +1,61 @@
+<!-- FILE: /portfolio/index.html -->
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portafolio — Emmanuel Alexander De los Santos (alex0360)</title>
+  <meta name="description" content="Portafolio técnico de proyectos: microservicios .NET, SQL Server, QA, observabilidad y DevOps." />
+  <meta property="og:title" content="Portafolio — Emmanuel Alexander De los Santos" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://alex0360.github.io/portfolio" />
+  <meta name="theme-color" content="#0f172a" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🧰</text></svg>">
+</head>
+<body style="margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'Helvetica Neue',Arial,'Noto Sans',sans-serif;background:#0b1220;color:#e5e7eb;line-height:1.6;">
+  <header style="display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:48px 20px;background:#0b1325;border-bottom:1px solid #1f2937;">
+    <nav style="display:flex;justify-content:space-between;align-items:center;margin:0 auto 24px auto;max-width:1100px;width:100%;">
+      <a href="/" style="text-decoration:none;color:#93c5fd;font-weight:700;">← Volver</a>
+      <a href="mailto:alex0360@outlook.com" style="color:#111827;background:#93c5fd;padding:8px 14px;border-radius:10px;text-decoration:none;font-weight:600;">Contacto</a>
+    </nav>
+    <h1 style="font-size:clamp(26px,5vw,40px);margin:0;color:#f8fafc;">Portafolio</h1>
+    <p style="margin:8px 0 0 0;color:#cbd5e1;">Casos seleccionados con foco en impacto técnico y de negocio.</p>
+  </header>
+
+  <main style="max-width:1100px;margin:0 auto;padding:32px 20px;">
+    <!-- PROJECT 1 -->
+
+    <!-- PROJECT 2 -->
+    <article id="notif" style="border:1px solid #1f2937;border-radius:14px;padding:16px;background:#0b1325;margin-bottom:16px;">
+      <h2 style="margin:0 0 6px 0;font-size:22px;color:#f8fafc;">Notification Manager — Multicanal</h2>
+      <p style="margin:0 0 10px 0;color:#cbd5e1;">Servicio para enviar notificaciones por webhook, email y chat. Reintentos, idempotencia y auditoría. <span style="color:#93c5fd;">↓Errores transitorios</span> y <span style="color:#93c5fd;">↑entregabilidad</span>.</p>
+      <ul style="margin:0;padding-left:18px;color:#cbd5e1;">
+        <li>Mensajería: RabbitMQ, colas de trabajo, DLQ.</li>
+        <li>Seguridad: claves por canal, firmas y control de acceso.</li>
+        <li>Observabilidad: métricas, logs estructurados y trazas.</li>
+      </ul>
+    </article>
+
+    <!-- PROJECT 3 -->
+    <article id="infra" style="border:1px solid #1f2937;border-radius:14px;padding:16px;background:#0b1325;margin-bottom:16px;">
+      <h2 style="margin:0 0 6px 0;font-size:22px;color:#f8fafc;">Infraestructura & DevOps</h2>
+      <p style="margin:0 0 10px 0;color:#cbd5e1;">Pipelines GitHub/Azure DevOps, versionado semántico, despliegues con Docker y orquestación base para Kong/Keycloak.</p>
+      <ul style="margin:0;padding-left:18px;color:#cbd5e1;">
+        <li>Automatización: scripts PowerShell, validación de versiones.</li>
+        <li>Contenedores: imágenes reproducibles, .env y overrides.</li>
+        <li>Monitoreo: SEQ, alertas y tableros.</li>
+      </ul>
+    </article>
+
+    <!-- CONTACT CTA -->
+    <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-top:24px;">
+      <a href="mailto:alex0360@outlook.com" style="background:#22c55e;color:#052e14;text-decoration:none;padding:10px 14px;border-radius:12px;font-weight:700;">👋 Hablemos</a>
+      <a href="/" style="border:1px solid #334155;color:#e5e7eb;text-decoration:none;padding:10px 14px;border-radius:12px;">Inicio</a>
+      <a href="https://www.linkedin.com/in/alex0360/" style="border:1px solid #334155;color:#e5e7eb;text-decoration:none;padding:10px 14px;border-radius:12px;">LinkedIn</a>
+    </div>
+  </main>
+
+  <footer style="text-align:center;padding:24px;color:#94a3b8;border-top:1px solid #1f2937;">© <span id="y"></span> Emmanuel A. De los Santos — Portafolio</footer>
+  <script>document.getElementById("y").textContent=new Date().getFullYear()</script>
+</body>
+</html>
